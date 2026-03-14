@@ -1,0 +1,9 @@
+import calendar
+
+# take input from user
+year = int(input("Enter year: "))
+month = int(input("Enter month (1-12): "))
+
+# display calendar
+cal = calendar.month(year, month)
+print("\n", cal)
